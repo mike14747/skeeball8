@@ -1,0 +1,154 @@
+/* theme colors */
+
+body {
+	background-color: #a7a09a;
+}
+
+.container {
+	background-color: #ffffff;
+}
+
+.bg-header {
+	background-color: #dfd9cf;
+	background-image: url('../images/head_bg_new.jpg');
+	background-position: center right;
+}
+
+.bg-table-header {
+	background-color: #f3e3c0;
+}
+
+.table1 {
+	margin: 0 auto;
+	width: auto;
+	min-width: 500px;
+}
+
+.border {
+  border: 1px solid #cccccc;
+}
+
+.table-bordered {
+  border: 1px solid #cccccc;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #cccccc;
+}
+
+.lh-2 {
+	line-height: 2;
+}
+
+/* general link styles */
+
+a {
+	color: #006699;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #cc0000;
+	text-decoration: none;
+}
+
+/* navbar styles */
+
+.nav-link {
+	display: block;
+	padding: 0.3rem 0.3rem;
+}
+
+.navbar-custom {
+	background-color: #d5eff4;
+}
+
+a.a-custom {
+	color: #cc0000;
+	background-color: #f3e3c0;
+}
+
+a.a-custom:hover {
+	color: #006699;
+	background: #d5eff4;
+}
+
+a.a-custom2 {
+	color: #006699;
+	background: #d5eff4;
+}
+
+a.a-custom2:hover {
+	color: #cc0000;
+	background-color: #f3e3c0;
+}
+
+a.a-custom2:focus {
+	color: #cc0000;
+	background-color: #f3e3c0;
+}
+
+/* make all images on the website responsive */
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.pic1 {
+		float: right;
+	}
+
+/* footer styles */
+
+.footer {
+	clear: both;
+	background-color: #d5eff4;
+}
+
+/* styles to reduce table padding and font size if the viewport gets too small */
+
+@media (min-width: 576px) {
+	.table th,
+	.table td {
+		padding-left: 0.10rem;
+		padding-right: 0.10rem;
+		font-size: 90%;
+	}
+	.navbar-expand-sm .navbar-nav .nav-link {
+		padding-right: 0.2rem;
+		padding-left: 0.2rem;
+	}
+	.pic1 {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.table th,
+	.table td {
+		padding-left: 0.25rem;
+		padding-right: 0.25rem;
+		font-size: 95%;
+	}
+	.navbar-expand-sm .navbar-nav .nav-link {
+		padding-right: 0.35rem;
+		padding-left: 0.35rem;
+	}
+	.pic1 {
+		display: inline;
+	}
+}
+
+@media (min-width: 992px) {
+	.table th,
+	.table td {
+		padding: 0.75rem;
+		font-size: 100%;
+	}
+	.navbar-expand-sm .navbar-nav .nav-link {
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+	}
+}
